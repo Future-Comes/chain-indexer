@@ -1,0 +1,22 @@
+{
+  "name": "@graphite/processor",
+  "version": "0.0.1",
+  "description": "Graphite blockchain data fetcher",
+  "license": "ISC",
+  "repository": "https://github.com/Future-Comes/chain-indexer.git",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "web3": "^1.7.5"
+  },
+  "devDependencies": {
+    "@types/web3": "^1.2.2"
+  },
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "test": ""
+  }
+}

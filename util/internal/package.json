@@ -1,0 +1,17 @@
+{
+  "name": "@graphite/util-iternal",
+  "version": "0.0.1",
+  "description": "Utilities graphite chain indexing service for internal use",
+  "license": "ISC",
+  "repository": "https://github.com/Future-Comes/chain-indexer.git",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "test": ""
+  }
+}
+
